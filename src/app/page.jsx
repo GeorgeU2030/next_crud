@@ -1,7 +1,7 @@
-import TaskCard from '@/components/TaskCard'
-import Task from '@/models/Task'
-import { connectdb } from '@/utils/database'
-import React from 'react'
+
+import TaskCard from '../components/TaskCard'
+import Task from '../models/Task'
+import { connectdb } from '../utils/database'
 
 export async function loadTask(){
   connectdb()
